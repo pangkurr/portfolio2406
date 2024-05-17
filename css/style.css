@@ -1,0 +1,79 @@
+:root {
+  --common-textColor: #000;
+  --common-textSize: 16px;
+}
+
+/* basic settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--common-textColor);
+  font-size: var(--common-textSize);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* container common */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 15vh 25vh 0vh;
+  overflow: hidden;
+}
+
+.container.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 15vh;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+/* main */
+main.portfolio-machine {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
+/* nav */
+nav {
+  position: fixed;
+  width: 25vh;
+  height: 85vh;
+  bottom: 0%;
+}
+
+nav.tag-navi {
+  left: 0%;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.75);
+}
+
+nav.contactMe {
+  right: 0%;
+  box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+/* portfolio page */
